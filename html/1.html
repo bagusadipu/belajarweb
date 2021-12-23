@@ -1,16 +1,71 @@
 <!-- Perbedaan HTML5 adalah saat ada gambar tidak terload, maka yang muncul hanya text(alt) -->
 <!DOCTYPE html> <!-- The <!DOCTYPE html> declaration defines that this document is an HTML5 document -->
-<html lang="en"> <!-- The <html> element is the root element of an HTML page -->
+<html lang="en-US"> <!-- The <html> element is the root element of an HTML page -->
 <head> <!-- The <head> element contains meta information about the HTML page -->
     <title>Page Title</title> <!-- <title> element specifies a title for the HTML page (which is shown in the browser's title bar or in the  -->
 </head> 
-<body> <!-- <body> element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc. -->
+<body style="background-color:powderblue;"> <!-- <body> element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc. -->
 <h1>My First Heading</h1> <!-- <h1> element defines a large heading -->
 <p>My first paragraph.</p> <!-- <p> element defines a paragraph -->
 
-<a href="https://www.w3schools.com">Link W3School</a>
-<br>
-<img src="../assets/images/1.jpg" alt="Sabrina Charpenter" width="200" height="200">
 
+<!-- ATTRIBUTES -->
+<a href="https://www.w3schools.com">Link W3School</a> <!-- Absolute URL --> <!-- <a> is tag, href is attribute -->
+<br> <!-- new line --> 
+<img src="../assets/images/1.jpg" alt="Sabrina Charpenter" width="200" height="200"> <!-- alt untuk tulisan apabila gambar gagal load -->
+
+<!-- PARAGRAPH -->
+<hr> <!-- Horizontal Ruller -->
+<pre>Halo Bagus 
+    Adi
+    Putra
+</pre> <!-- Pre tag yang digunakan untuk menampilkan text sesuai format asli -->
+<p style="color:red;">This is a red paragraph</p> <!-- <p> element defines a paragraph with CSS style color -->
+<p title='John "ShotGun" Nelson'> <!-- <p> element defines a paragraph with title (mirip alt) -->
+
+<!-- STYLES -->
+<h1 style="background-color:blueviolet;
+font-family: Courier;
+font-size:160%">This is a heading</h1>
+<p style="background-color:tomato; 
+font-family:verdana;">This is a paragraph font-family:verdana.</p>
+<p style="color:red;">This is a paragraph - Color:Red.</p>
+<p style="text-align:center;">Centered paragraph (Horizontal)</p>
+
+<!-- FORMATTING -->
+<!-- BOLD TEXT defines bold text, without any extra importance.-->
+<p><b>This text is bold</b></p>
+<!-- STRONG defines text with strong importance. The content inside is typically displayed in bold. -->
+<p><strong>This text is important!</strong> </p>
+<!-- ITALIC defines a part of text in an alternate voice or mood. The content inside is typically displayed in italic. -->
+<p><i>This text is italic</i> </p>
+<!-- EMPHASIZED defines emphasized text. The content inside is typically displayed in italic. -->
+<p><em>This text is emphasized</em></p>
+<!-- SMALL defines smaller text -->
+<p><small>This is some smaller text.</small></p>
+
+
+
+<!-- MARK defines text that should be marked or highlighted -->
+<p>Do not forget to buy <mark>milk</mark> today.</p>
+<!-- DEL defines text that should be marked or highlighted: -->
+<p>My favorite color is <del>blue</del> red.</p>
+<!-- SUB defines subscript text. Subscript text appears half a character below the normal line, and is sometimes rendered in a smaller font. Subscript text can be used for chemical formulas, like H2O: -->
+<p>This is <sub>subscripted</sub> text.</p>
+<!-- SUP defines superscript text. Superscript text appears half a character above the normal line, and is sometimes rendered in a smaller font. Superscript text can be used for footnotes, like WWW[1]: -->
+<p>This is <sup>superscripted</sup> text.</p>
+<!-- INS defines a text that has been inserted into a document. Browsers will usually underline inserted text -->
+<p>My favorite color is <ins>red</ins>.</p>
+<!-- BLOCKQUOTE defines a section that is quoted from another source -->
+<p><blockquote cite="http://www.worldwildlife.org/who/index.html">
+    For 50 years, WWF has been protecting the future of nature.
+    The world's leading conservation organization,
+    WWF works in 100 countries and is supported by
+    1.2 million members in the United States and
+    close to 5 million globally.
+    </blockquote></p>
+<!-- QUOTATION defines a short quotation, Give " "-->
+<p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p> 
+<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p> 
 </body>
 </html> 
