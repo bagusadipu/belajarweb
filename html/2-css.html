@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>
+        
+        </title>
+        <!-- CSS INTERNAL LEBIH DIDAHULUKAN DIBANDING EKSTERNAL -->
+        <!-- URUTAN INLINE->INTERNAL->EKSTERNAL -->
+        <link rel="stylesheet" href="../css/2.css">
+        <style>
+            .internal{
+                /* Color of text */
+                color: red;
+                /* Posisi Text */
+                text-align: center;
+                /* Ukuran Text */
+                font-size: 30px;
+                /* Jenis Font/Text */
+                font-family: Verdana;
+                /* Warna Background Sebaris Text */
+                background-color: green;
+                /* Border Sebaris Text */
+                border: 2px solid powderblue;
+                /* Jarak Text Ke Sisi Luar */
+                padding: 30px;
+                /* Jarak Sisi Luar ke Sisi Lainnya */
+                margin: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="inline" style="color: blueviolet;
+        text-align: center;
+        font-size: 30px;
+        font-family: Verdana;
+        background-color: yellow;"> CSS INTERNAL </div>
+        <div class="internal"> CSS INTERNAL </div>
+        <div class="eksternal"> CSS EKSTERNAL </div>
+    </body>
+</html>
