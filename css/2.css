@@ -5,3 +5,35 @@
     font-family: Verdana;
     background-color: blue;
 }
+
+.linkcolor a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+.linkcolor a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+.linkcolor a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.linkcolor a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.btncolor a:link, a:visited  {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.btncolor a:hover, a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
