@@ -6,6 +6,7 @@
     background-color: blue;
 }
 
+/* Link Color 1 */
 .linkcolor a:link {
     color: green;
     background-color: transparent;
@@ -27,13 +28,28 @@
     text-decoration: underline;
 }
 
-.btncolor a:link, a:visited  {
+/* Link Color 2 */
+.btncolor a:link, .btncolor a:visited  {
     color: red;
     background-color: transparent;
     text-decoration: underline;
 }
-.btncolor a:hover, a:active {
+.btncolor a:hover, .btncolor a:active {
     color: yellow;
     background-color: transparent;
     text-decoration: underline;
 }
+
+/* Link Color 3 */
+.btnblock a:link, .btnblock a:visited {
+    background-color: #f44336;
+    color: blue;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+.btnblock a:hover, .btnblock  a:active {
+    background-color: red;
+  }
